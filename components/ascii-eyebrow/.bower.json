@@ -1,0 +1,41 @@
+{
+  "name": "ascii-eyebrow",
+  "authors": [
+    "Carmen Popoviciu <carmen.popoviciu@gmail.com>"
+  ],
+  "description": "A raised eyebrow for the silly parts of the web. Animated ascii eyebrow emoticon as Polymer element.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "ascii",
+    "ascii eyebrow",
+    "smileys"
+  ],
+  "main": "ascii-eyebrow.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/CarmenPopoviciu/ascii-eyebrow/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "prefixfree": "*"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "_release": "e765ac8b4f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e765ac8b4f0f60720ce380f0a3ab5abcb3722c4c"
+  },
+  "_source": "git://github.com/CarmenPopoviciu/ascii-eyebrow.git",
+  "_target": "master",
+  "_originalSource": "CarmenPopoviciu/ascii-eyebrow",
+  "_direct": true
+}

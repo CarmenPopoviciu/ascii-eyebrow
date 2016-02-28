@@ -1,0 +1,48 @@
+<link rel="import" href="../polymer/polymer.html">
+<script href="../prefixfree/prefixfree.min.js"></script>
+
+<!--
+Animated ascii eyebrow emoticon as Polymer element.
+
+Example:
+
+    <ascii-eyebrow><ascii-eyebrow>
+
+@demo
+-->
+<dom-module id="ascii-eyebrow">
+  <style>
+    :host {
+      height: 25px;
+      font: 1.1em verdana;
+    }
+
+    :host div {
+      height: 18px;
+      float: left;
+    }
+
+    .left-eye {
+      animation: raise-eyebrow 3s ease-in forwards 1;
+      transform-origin: left bottom;
+    }
+
+    @keyframes raise-eyebrow {
+        100% {transform: scale(1.6, 1.6);}
+    }
+  </style>
+  
+  <template>
+    <div>
+      <div class="right-eye">o</div>
+      <div class="mouth">_</div>
+      <div class="left-eye">o</div>
+    </div>
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: 'ascii-eyebrow'
+  });
+</script>
